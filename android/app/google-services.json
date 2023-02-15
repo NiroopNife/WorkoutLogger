@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "593014545349",
+    "project_id": "workout-log-bd321",
+    "storage_bucket": "workout-log-bd321.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593014545349:android:2b9009fdd592e1ec2d09ac",
+        "android_client_info": {
+          "package_name": "com.example.workout_log"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593014545349-rd4oci5o9igvifsf8jnm7d1s0e6dhodo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.workout_log",
+            "certificate_hash": "0a3bcea69c9391eafadc5c88490c45e4f2ea8191"
+          }
+        },
+        {
+          "client_id": "593014545349-b6a5qs7bsu3jp8rj8cogmj59q7b2ur6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCeM28KEa_aDenAnKaxt5U4tx1mjJOZ7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593014545349-b6a5qs7bsu3jp8rj8cogmj59q7b2ur6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
