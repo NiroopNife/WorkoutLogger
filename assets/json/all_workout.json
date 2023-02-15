@@ -1,0 +1,77 @@
+{
+  "workouts": [
+    {
+      "type": "Cycling",
+      "subType": [],
+      "measurement": [
+        "distance",
+        "time"
+      ]
+    },
+    {
+      "type": "Walking",
+      "subType": [],
+      "measurement": [
+        "distance",
+        "time"
+      ]
+    },
+    {
+      "type": "Jogging",
+      "subType": [],
+      "measurement": [
+        "distance",
+        "time"
+      ]
+    },
+    {
+      "type": "Yoga",
+      "subType": [
+        "Meditation",
+        "Suryanamaskara"
+      ],
+      "measurement": [
+        "time"
+      ]
+    },
+    {
+      "type": "Dumbbells",
+      "subType": [
+        "Dumbbell Pull over",
+        "Rotational Row",
+        "Hammer Curl",
+        "Side Press",
+        "Dumbbell bench squat"
+      ],
+      "measurement": [
+        "reps",
+        "sets"
+      ]
+    },
+    {
+      "type": "Plank",
+      "subType": [
+        "Front Plank",
+        "Reverse Plank"
+      ],
+      "measurement": [
+        "time"
+      ]
+    },
+    {
+      "type": "Warm up exercise",
+      "subType": [
+        "Jumping Jack",
+        "Dynamic Back Stretch",
+        "Arm Circles",
+        "Dynamic Chest Stretch",
+        "Hip Circle",
+        "Slopes Towards"
+      ],
+      "measurement": [
+        "reps",
+        "sets"
+      ]
+    }
+  ]
+}
