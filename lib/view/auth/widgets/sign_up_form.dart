@@ -33,7 +33,7 @@ class SignUpForm extends StatelessWidget {
       height: size.height / 1.7,
       margin: EdgeInsets.all(20.w),
       padding: EdgeInsets.symmetric(vertical: 20.h, horizontal: 32.w),
-      decoration: BoxDecoration(color: whiteColor, borderRadius: BorderRadius.circular(32.w)),
+      decoration: BoxDecoration(color: whiteDarkColor, borderRadius: BorderRadius.circular(32.w)),
       child: Column(
         children: [
           Text(

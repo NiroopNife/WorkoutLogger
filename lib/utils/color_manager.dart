@@ -13,3 +13,5 @@ const Color greyColor = Color(0xFF9E9E9E);
 const Color redColor = Color(0xFFF44336);
 const Color backgroundColor = Color(0XFFE5E5E5);
 const Color secondaryColor = Color(0XFFD9D6EB);
+const Color unselectedColor = Color(0XFF424242);
+const Color w = Colors.white70;

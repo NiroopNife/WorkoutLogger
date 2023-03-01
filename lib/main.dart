@@ -36,6 +36,7 @@ class WorkoutLoggerApp extends StatelessWidget {
         builder: (context, child) {
           return MaterialApp(
             onGenerateRoute: RouteGenerator.getRoute,
+            debugShowCheckedModeBanner: false,
             title: AppStrings.appTitle,
             theme: getApplicationTheme(),
             home: StreamBuilder<User?>(
