@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:workout_log/provider/workout_provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'widget/add_workout_form_dialog.dart';
+import '../widget/add_workout_form_dialog.dart';
 
-class DashboardView extends StatefulWidget {
-  const DashboardView({Key? key}) : super(key: key);
+class DashboardScreen extends StatefulWidget {
+  const DashboardScreen({Key? key}) : super(key: key);
 
   @override
-  State<DashboardView> createState() => _DashboardViewState();
+  State<DashboardScreen> createState() => _DashboardScreenState();
 }
 
-class _DashboardViewState extends State<DashboardView> {
+class _DashboardScreenState extends State<DashboardScreen> {
 
   late FirebaseAuth _auth;
 

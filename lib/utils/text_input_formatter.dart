@@ -28,7 +28,7 @@ class _TimeInputFieldState extends State<TimeInputField> {
   Widget build(BuildContext context) {
     return TextFormField(
       controller: provider!.controller,
-      keyboardType: TextInputType.numberWithOptions(decimal: false),
+      keyboardType: const TextInputType.numberWithOptions(decimal: false),
       decoration: InputDecoration(
         hintText: '00:00:00',
       ),
