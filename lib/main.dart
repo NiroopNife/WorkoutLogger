@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:workout_log/provider/auth_provider.dart';
 import 'package:workout_log/provider/workout_provider.dart';
@@ -15,6 +16,7 @@ import 'package:workout_log/view/dashboard/dashboard_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
   await ScreenUtil.ensureScreenSize();
   runApp(const WorkoutLoggerApp());
 }
